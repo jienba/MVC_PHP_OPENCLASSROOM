@@ -39,5 +39,4 @@ function getComments($postId)
     $comments->execute(array($postId));
     $comments->fetch();
     return $comments;
-
 }
