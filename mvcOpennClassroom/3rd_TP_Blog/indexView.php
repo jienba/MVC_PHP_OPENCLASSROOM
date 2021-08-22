@@ -58,7 +58,6 @@ require("../includes/navbar.php");
                 $req2 = $db->prepare('SELECT COUNT(commentaire) AS nbreCommentaire FROM commentaires');
                 $nbreCommentaire = $req->execute();
                 */
-                $req->execute();
                 while ($data = $req->fetch()) {
 
                     ?>
@@ -66,11 +65,11 @@ require("../includes/navbar.php");
                     <!-- <h3 style="text-align: center; background-color:#011c37; color:#EBF6F7; border-radius:2rem; padding: 1.8rem 2rem"><?= $data['titre'] ?> le <span style="font-style: italic;"><?= DATE($data['date_creation']); ?> </span></h3> -->
                     <h3 style="text-align: center; background-color:#011c37; color:#EBF6F7; border-radius:2rem; padding: 1.8rem 2rem"><?=  $data['title'] ?>
                         le <span
-                                style="font-style: italic;"><?= date($data['creation_date']); ?> à <?= date($data['creation_date']); ?></span>
+                                style="font-style: italic;"><?= $data['creation_date_fr']?></span>
                     </h3>
                     <p style="font-size: 25px;">
                         <?= $data['content'] ?>
-                        <br><a href="commentaires.php?id=<?= $data['id'] ?>"
+                        <br><a href="post.php.php?id=<?= $data['id'] ?>"
                                style="text-decoration:none; color:blue; font-size:2rem;">Commentaires </a>
                     <hr>
                     </p>
