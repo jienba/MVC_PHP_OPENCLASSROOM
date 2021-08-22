@@ -42,7 +42,6 @@ require("../includes/navbar.php");
     <h2 style="text-align:center; font-size:40px; letter-spacing: 4px;">Mon Super blog!</h2>
 <?= $content?>
 
-
 </body>
 
 </html>

@@ -12,7 +12,6 @@ function dbConnect(): PDO
     return $db;
 }
 
-
 function getPosts()
 {
     $db = dbConnect();
@@ -40,4 +39,5 @@ function getComments($postId)
     $comments->execute(array($postId));
     $comments->fetch();
     return $comments;
+
 }

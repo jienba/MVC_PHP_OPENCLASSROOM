@@ -6,6 +6,6 @@ if (isset($GET['id'] ) && $GET['id'] > 0) {
     $comments = getComments($GET['id']);
     require 'postView.php';
 }else {
-    echo 'Erreur: aucun identifiant de billet envoyé';
+    echo 'Erreur : aucun identifiant de billet envoyé';
 }
 

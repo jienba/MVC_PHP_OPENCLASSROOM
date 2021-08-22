@@ -2,7 +2,7 @@
 $title = 'Mon Blog';
 require("../includes/navbar.php");
 ?>
-<?php  ob_start();?>
+<?php ob_start();?>
 <!-- DATE -->
 
     <span class="col-md-10 col-md-offset-1" style="font-size: 20px;">Derniers billets du blog: </span>
