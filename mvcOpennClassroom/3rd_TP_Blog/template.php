@@ -36,7 +36,7 @@ require("../includes/navbar.php");
         <p>Aujourd'hui, nous sommes le <?= date('D-d-M-Y h:i:s'); ?>. </p>
 
         <p><a class="btn btn-success btn-lg" href="#" role="button">Learn more</a></p>
- 
+
     </div>
     <h2 style="text-align:center; font-size:40px; letter-spacing: 4px;">Mon Super blog!</h2>
 <?= $content?>
