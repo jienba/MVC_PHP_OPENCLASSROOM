@@ -30,7 +30,6 @@ function getPost($postId)
     $post = $req->fetch();
 
     return $post;
-
 }
 
 function getComments($postId)
