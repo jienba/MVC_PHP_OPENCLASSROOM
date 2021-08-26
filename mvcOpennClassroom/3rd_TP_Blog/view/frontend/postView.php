@@ -14,7 +14,7 @@ ob_start()?>
             </p>
             <br><span style="text-decoration:none; color:blue; font-size:2rem;">Commentaires</span> <br>
             <div class="col-md-6">
-                <form action="index.php?action=addComment&id= <?= $post['id'] ?>" method="post">
+                <form action="index.php?action=addComment&id=<?= $post['id'] ?>" method="post">
                     <div class="form-group">
                         <label for="author">Auteur</label>
                         <input type="text" class="form-control" id="author" name="author" required>
