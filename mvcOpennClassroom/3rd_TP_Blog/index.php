@@ -11,6 +11,11 @@ if (isset($_GET['action'])){
             post();
         }
     }
+    elseif ($_GET['action'] == 'addComment'){
+        if (isset($_GET['id']) && $_GET['id'] > 0 ){
+            addComment($_GET['id'], $_POST['author'], $_POST['comment'] );
+        }
+    }
     else {
         echo 'Erreur: Aucun identifiant de billet envoyé';
     }

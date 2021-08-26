@@ -3,8 +3,7 @@ $title = 'Commentaires';
 ob_start()?>
 
 
-<br><a href="../../index.php" class="col-md-10 col-md-offset-1" style="text-decoration:none; color:blue; font-size:2rem;">Retour
-    à la liste des billets</a>
+<br><a href="index.php" class="col-md-10 col-md-offset-1" style="text-decoration:none; color:blue; font-size:2rem;">Retour à la liste des billets</a>
 <div class="col-md-10 col-md-offset-1"
      style="background-color: rgb(175, 200, 247); border: 2px ridge; border-radius: 10px; text-align:center; padding:20px;">
     <div class="row">
@@ -15,6 +14,19 @@ ob_start()?>
             </p>
             <br><span style="text-decoration:none; color:blue; font-size:2rem;">Commentaires</span> <br>
             <div class="col-md-6">
+                <form action="index.php?action=addComment&id= <?= $post['id'] ?>" method="post">
+                    <div class="form-group">
+                        <label for="author">Auteur</label>
+                        <input type="text" class="form-control" id="author" name="author" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="comment">Commentaire</label>
+                            <textarea class="form-control" id="comment" name="comment" rows="7" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-default" style="margin:10px 0 15px 0">Commenter</button>
+                </form>
                 <table class="table table-hover">
                     <tbody>
 

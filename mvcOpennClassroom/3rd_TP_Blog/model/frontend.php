@@ -28,7 +28,6 @@ function getPost($postId)
                                 FROM billets WHERE id = ?');
     $req->execute(array($postId));
     $post = $req->fetch();
-
     return $post;
 }
 
@@ -39,4 +38,14 @@ function getComments($postId)
                                     FROM commentaires WHERE id_billet = ? ORDER BY comment_date DESC');
     $comments->execute(array($postId));
     return $comments;
+}
+
+function postComment($postId, $author, $comment)
+{
+    $db = dbConnect();
+    $comments = $db->prepare('INSERT INTO commentaires(id_billet, author, comment, comment_date)
+                                        VALUES (?,?,?, NOW())');
+    $affectedLines = $comments->execute(array($postId, $author, $comment));
+
+    return $affectedLines;
 }

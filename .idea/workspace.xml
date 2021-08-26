@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b92bb7-4049-4723-b677-7bb8f2d5560d" name="Default Changelist" comment="MVC folder work 😃😃😃!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/view/frontend/listPostsView.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/view/frontend/listPostsView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/view/frontend/postView.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/view/frontend/postView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -38,6 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +80,9 @@
       <workItem from="1629917696761" duration="11000" />
       <workItem from="1629917731875" duration="121000" />
       <workItem from="1629917862068" duration="3675000" />
+      <workItem from="1629990093222" duration="3594000" />
+      <workItem from="1629993714320" duration="906000" />
+      <workItem from="1629998783418" duration="2532000" />
     </task>
     <task id="LOCAL-00001" summary="MVC folder work 😃😃😃!">
       <created>1629919848854</created>

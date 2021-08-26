@@ -20,7 +20,7 @@ $title = 'Mon Blog';
                 </h3>
                 <p style="font-size: 25px;">
                     <?= $data['content'] ?>
-                    <br><a href="../../index.php?action=post&id=<?= $data['id'] ?>"
+                    <br><a href="index.php?action=post&id=<?= $data['id'] ?>"
                            style="text-decoration:none; color:blue; font-size:2rem;">Commentaires </a>
                 <hr>
                 <?php
