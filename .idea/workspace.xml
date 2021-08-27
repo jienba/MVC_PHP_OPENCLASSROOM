@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b92bb7-4049-4723-b677-7bb8f2d5560d" name="Default Changelist" comment="Implementing posting comment done">
+      <change afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/CommentManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/PostManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/view/frontend/postView.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/view/frontend/postView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/frontend.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,8 @@
       <workItem from="1629990093222" duration="3594000" />
       <workItem from="1629993714320" duration="906000" />
       <workItem from="1629998783418" duration="6347000" />
+      <workItem from="1630067967176" duration="25000" />
+      <workItem from="1630069571358" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="MVC folder work 😃😃😃!">
       <created>1629919848854</created>
