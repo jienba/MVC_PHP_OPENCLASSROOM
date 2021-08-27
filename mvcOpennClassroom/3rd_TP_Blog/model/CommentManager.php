@@ -1,5 +1,6 @@
 <?php
 
+namespace jienba_devops\Blog\Model;
 
 class CommentManager extends Manager
 {
