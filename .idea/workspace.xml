@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27b92bb7-4049-4723-b677-7bb8f2d5560d" name="Default Changelist" comment="Implementing posting comment done">
-      <change afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/CommentManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/PostManager.php" afterDir="false" />
+    <list default="true" id="27b92bb7-4049-4723-b677-7bb8f2d5560d" name="Default Changelist" comment="Our model into Object">
+      <change afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/Manager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/frontend.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/CommentManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/CommentManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/PostManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/PostManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1629993714320" duration="906000" />
       <workItem from="1629998783418" duration="6347000" />
       <workItem from="1630067967176" duration="25000" />
-      <workItem from="1630069571358" duration="2594000" />
+      <workItem from="1630069571358" duration="3714000" />
     </task>
     <task id="LOCAL-00001" summary="MVC folder work 😃😃😃!">
       <created>1629919848854</created>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630001736180</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Our model into Object">
+      <created>1630078312394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630078312394</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MVC folder work !" />
     <MESSAGE value="Implementing posting comment done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing posting comment done" />
+    <MESSAGE value="Our model into Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Our model into Object" />
   </component>
 </project>
