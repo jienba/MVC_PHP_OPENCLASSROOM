@@ -30,3 +30,10 @@ function addComment($post_id, $author, $comment)
         header('Location: index.php?action=post&id=' . $post_id);
     }
 }
+
+function updateComment($idComment, $newComment)
+{
+    $commentManger = new \jienba_devops\Blog\Model\CommentManager();
+    $commentManger->editComment($idComment, $newComment);
+    header('Location:index.php?action=editComment&id=' .$idComment);
+}

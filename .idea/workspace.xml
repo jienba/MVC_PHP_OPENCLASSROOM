@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="27b92bb7-4049-4723-b677-7bb8f2d5560d" name="Default Changelist" comment="Implementing namespace to avoid conflict name with class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/controller/frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/CommentManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvcOpennClassroom/3rd_TP_Blog/model/CommentManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
